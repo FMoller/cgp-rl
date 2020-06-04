@@ -20,6 +20,7 @@
  *
  * Created on: january 15, 2019
  * Updated on: october 27, 2019
+ *
  */
 
 
@@ -67,9 +68,16 @@ int evolves_cgp_bdd(Individual *population, Table *table, int *gates)
 		//printf("\n Pop:");
 		for(int i = 1; i < NPOP; i++){	
 			if (population[i].last_mut[0]>=0){
-				//printf("\n [%d,%d]",population[i].last_mut[0],population[i].last_mut[1]);
+				/*
+				*
+				* Change to CGP-RL, update of the occurrence and average matrix.
+				*
+				*/
 				mat_oco[population[i].last_mut[0]][population[i].last_mut[1]]++;
 				mat_dec[population[i].last_mut[0]][population[i].last_mut[1]]+=(population[i].score - mat_dec[population[i].last_mut[0]][population[i].last_mut[1]])/(mat_oco[population[i].last_mut[0]][population[i].last_mut[1]]);
+				/*
+				* End of change
+				*/
 			}
 		}
 
@@ -77,14 +85,6 @@ int evolves_cgp_bdd(Individual *population, Table *table, int *gates)
         {
             fprintf(out_file, "SAT COUNT: %ld INDIVIDUAL: %d GENERATION: %ld\n", population[0].score, best_individual, generation);
             fflush(out_file);
-			/*
-			for(int i=0;i <7;i++){
-				for(int j=0;j<7;j++){
-					printf("%d \t",mat_oco[i][j]);
-				}
-				printf("\n");
-			}
-			*/
             break;
         }
         if (generation % 50000 == 0)
@@ -147,13 +147,20 @@ void optimize_circuit(Individual *population, Table *table, int *gates)
         clear_population_active_genes(population);
         find_population_active_genes(population, table->num_inputs);
         best_individual = find_optimized_individual(population);
+		/*
+		*
+		* Change to CGP-RL, update of the occurrence and average matrix.
+		*
+		*/
 		for(int i = 1; i < NPOP; i++){	
 			if (population[i].last_mut[0]>=0){
-				//printf("\n [%d,%d]",population[i].last_mut[0],population[i].last_mut[1]);
 				mat_oco[population[i].last_mut[0]][population[i].last_mut[1]]++;
 				mat_dec[population[i].last_mut[0]][population[i].last_mut[1]]+=(population[i].num_transistors - mat_dec[population[i].last_mut[0]][population[i].last_mut[1]])/(mat_oco[population[i].last_mut[0]][population[i].last_mut[1]]);
 			}
 		}
+		/*
+		* End of change
+		*/
         set_parent(population, best_individual);
 
         if (generation % 50000 == 0)
@@ -174,14 +181,6 @@ void optimize_circuit(Individual *population, Table *table, int *gates)
         {
             fprintf(out_file,"NUM TRANSISTORS: %d INDIVIDUAL: %d GENERATION: %ld\n", population[0].num_transistors, best_individual, generation);
             fflush(out_file);
-			/*
-			for(int i=0;i <7;i++){
-				for(int j=0;j<7;j++){
-					printf("%d \t",mat_oco[i][j]);
-				}
-				printf("\n");
-			}
-			*/
             break;
         }
         if(generation == mediangen)

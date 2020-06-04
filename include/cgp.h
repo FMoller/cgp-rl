@@ -84,7 +84,7 @@ typedef struct Individual
     long int *score_per_output;
     long int score;
     int num_transistors;
-	int last_mut[2];
+	int last_mut[2]; //Adaptation for CGP-RL
 
 } Individual;
 
@@ -1286,7 +1286,11 @@ void initialize_individual(Individual *individual, int *gates, int num_inputs_ta
         individual->score_per_output[i] = 0;
     }
 }
-//ALTERACOES
+/*
+*
+* Function that looks for the first occurrence of the lowest value in a row of the averages matrix, CGP-RL
+*
+*/
 int find_min(int linha){
 	float minval;
 	int minpos;
@@ -1300,21 +1304,21 @@ int find_min(int linha){
 		minpos = 0;
 	}
 	for(int i=0;i<7;i++){
-	//	printf("\n matdec[%d][%d] = %.2f",linha,i,mat_dec[linha][i]);
 		if(i!=linha){
 			if(mat_dec[linha][i]<minval){
-			//printf("\n ENTROU minval = %.2f, val = %.2f, i = %d",minval,mat_dec[linha][i],i);
 				minpos = i;
 				minval= mat_dec[linha][i];
 			}
 		}
 	}
-	if(minpos==linha){
-		printf("\n Passando diag");
-	}
 	return minpos;
 	
 }
+/*
+*
+* The function below changed due to CGP-RL
+*
+*/
 void mutate_gene(Individual *individual, int *gates, int gene_pos, int num_inputs_table)
 {
     int temp = randomize(0, 3);
@@ -1339,14 +1343,12 @@ void mutate_gene(Individual *individual, int *gates, int gene_pos, int num_input
 			
 		}
 		else{
-			//printf("\n %d",find_min(individual->genotype[pos].gate-1));
 			temp = find_min(individual->genotype[pos].gate-1)+1;
 			individual->last_mut[0] = individual->genotype[pos].gate-1;
 			individual->last_mut[1] = temp-1;
 			individual->genotype[pos].gate = temp;
 			if(temp>7) printf("\n %d",temp);
 		}
-		//printf("\n [%d,%d]",individual->last_mut[0] ,individual->last_mut[1] );
 		
     }
 }
