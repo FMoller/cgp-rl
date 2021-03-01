@@ -2,8 +2,7 @@
  * @file cgp.h
  *
  * @brief Cartesian Genetic Programming Algorithm with mutation operator biased by 
- * reinforcement learning. RL applied to the mutation of the types of logic functions 
- * and the element type of the nodes (CGP-RL DUAL).
+ * reinforcement learning. RL applied to the mutation of the types of logic functions (CGP-RL).
  * 
  * @details This file implements the Cartesian Genetic Programming Algorithm based in 
  * those materials listed below.
