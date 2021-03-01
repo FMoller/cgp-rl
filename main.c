@@ -1,27 +1,36 @@
 /**
- * @file cgp.h
+ * @file main.c
  *
- * @brief Cartesian Genetic Programming Algorithm
- *
+ * @brief Cartesian Genetic Programming Algorithm with mutation operator biased by 
+ * reinforcement learning. RL applied to the mutation of the types of logic functions 
+ * and the element type of the nodes (CGP-RL DUAL).
+ * 
  * @details This file implements the Cartesian Genetic Programming Algorithm based in 
  * those materials listed below.
  *  -Cartesian Genetic Programming - ISBN-10: 3642269982 ISBN-13: 978-3642269981
  *  -How to evolve complex circuits from scratch - DOI: 10.1109/ICES.2014.7008732
  *  -CGP with Guided and Single Active Mutations for Designing CLCs - DOI: 
+ *  -CGP-RL applied to logical function mutations https://doi.org/10.1007/978-3-030-61380-8_2
  * 
- * @author Lucas Augusto Müller de Souza (lucasmuller@ice.ufjf.br)
+ * @author Lucas Augusto Müller de Souza (lucasmuller@ice.ufjf.br) (Standart CGP implementation)
  * Computational Engineering student at Universidade Federal de Juiz de Fora
- *
+ * @author Frederico José Dias Möller (moller@ice.ufjf.br) (RL operator implementation)
+ * Computer Science master student at Universidade Federal de Juiz de Fora
  *
  * @copyright Distributed under the Mozilla Public License 2.0 ( https://opensource.org/licenses/MPL-2.0 )
  *
- * @code available at https://github.com/ciml/ciml-lib/tree/applied-soft-computing-2019
+ * @code available at https://github.com/FMoller/cgp-rl/blob/master/include/cgp.h
+ * @see https://github.com/ciml/ciml-lib/tree/applied-soft-computing-2019 for the standart CGP code
  * @see https://github.com/lucasmullers/
  *
- * Created on: january 15, 2019
- * Updated on: october 27, 2019
- *
- * P
+ * Created on: january 15, 2019 (standart CGP)
+ * Updated on: october 27, 2019 (standart CGP)
+ * Created on: july 04, 2020
+ * Updated on: march 01, 2021
+ * 
+ * Warning: CGP-RL is designed to work with the SAM mutation type. This prototype was built 
+ * on a code that accepts the SAM, GAM and PM mutations. However, the RL operator is unlikely 
+ * to function properly in GAM and PM.
  */
 
 
@@ -66,21 +75,14 @@ int evolves_cgp_bdd(Individual *population, Table *table, int *gates)
         evaluate_population_sat_count(population, table);
         best_individual = find_best_individual_sat_count(population);
         set_parent(population, best_individual);
-		//printf("\n Pop:");
-		for(int i = 1; i < NPOP; i++){	
-			if (population[i].last_mut[0]>=0){
-				/*
-				*
-				* Change to CGP-RL, update of the occurrence and average matrix.
-				*
-				*/
-				mat_oco[population[i].last_mut[0]][population[i].last_mut[1]]++;
-				mat_dec[population[i].last_mut[0]][population[i].last_mut[1]]+=(population[i].score - mat_dec[population[i].last_mut[0]][population[i].last_mut[1]])/(mat_oco[population[i].last_mut[0]][population[i].last_mut[1]]);
-				/*
-				* End of change
-				*/
-			}
-		}
+        for(int i = 1; i < NPOP; i++){ //RL OPERATOR: updating reward matrix
+            if (population[i].last_mut[0]>=0)
+            {
+                mat_oco[population[i].last_mut[0]][population[i].last_mut[1]]++;
+                mat_dec[population[i].last_mut[0]][population[i].last_mut[1]]+=(population[i].score - 
+                mat_dec[population[i].last_mut[0]][population[i].last_mut[1]])/(mat_oco[population[i].last_mut[0]][population[i].last_mut[1]]);
+            }
+        }
 
         if (population[0].score == 0)
         {
@@ -143,25 +145,18 @@ void optimize_circuit(Individual *population, Table *table, int *gates)
         else if (mutation == 3)
             apply_PM(population, gates, table->num_inputs);
         evaluate_population_sat_count(population, table);
-		
+        
 
         clear_population_active_genes(population);
         find_population_active_genes(population, table->num_inputs);
         best_individual = find_optimized_individual(population);
-		/*
-		*
-		* Change to CGP-RL, update of the occurrence and average matrix.
-		*
-		*/
-		for(int i = 1; i < NPOP; i++){	
-			if (population[i].last_mut[0]>=0){
-				mat_oco[population[i].last_mut[0]][population[i].last_mut[1]]++;
-				mat_dec[population[i].last_mut[0]][population[i].last_mut[1]]+=(population[i].num_transistors - mat_dec[population[i].last_mut[0]][population[i].last_mut[1]])/(mat_oco[population[i].last_mut[0]][population[i].last_mut[1]]);
-			}
-		}
-		/*
-		* End of change
-		*/
+        for(int i = 1; i < NPOP; i++){ //RL OPERATOR updating reward matrix
+            if (population[i].last_mut[0]>=0)
+            {
+                mat_oco[population[i].last_mut[0]][population[i].last_mut[1]]++;
+                mat_dec[population[i].last_mut[0]][population[i].last_mut[1]]+=(population[i].num_transistors - mat_dec[population[i].last_mut[0]][population[i].last_mut[1]])/(mat_oco[population[i].last_mut[0]][population[i].last_mut[1]]);
+            }
+        }
         set_parent(population, best_individual);
 
         if (generation % 50000 == 0)
@@ -198,12 +193,12 @@ void optimize_circuit(Individual *population, Table *table, int *gates)
 
 int main(int argc, char const *argv[])
 {
-	for(int i=0;i<7;i++){
-		for(int j=0;j<7;j++){
-			mat_dec[i][j]=0;
-			mat_oco[i][j]=0;
-		}
-	}
+    for(int i=0;i<7;i++){
+        for(int j=0;j<7;j++){
+            mat_dec[i][j]=0;
+            mat_oco[i][j]=0;
+        }
+    }
     int semente;
     mediangen = -1;
     sscanf(argv[2], "seed=%d", &semente);
@@ -255,12 +250,14 @@ int main(int argc, char const *argv[])
     {
         if (evolves_cgp_bdd(population, table, gates))
         {
-			for(int i=0;i<7;i++){
-				for(int j=0;j<7;j++){
-					mat_dec[i][j]=0;
-					mat_oco[i][j]=0;
-		}
-	}
+            for(int i=0;i<7;i++) //RL OPERATOR reseting reward matrix
+            {
+                for(int j=0;j<7;j++)
+                {
+                    mat_dec[i][j]=0;
+                    mat_oco[i][j]=0;
+                }
+            }
             optimize_circuit(population, table, gates);
         }
     }
