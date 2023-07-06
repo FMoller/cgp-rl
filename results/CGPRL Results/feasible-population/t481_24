@@ -1,0 +1,418 @@
+SAM
+.p 65536
+.i 16
+.o 1
+~i1*~i2*~i13*~i14+~i0*i1*i2*~i3*~i12*i13*i14*~i15+~i0*i1*i2*~i3*~i13*~i14+~i0*i1*~i2*~i5*~i6*~i9*~i10*~i12*i13*~i14+~i1*i2*~i3*~i5*~i6*~i9*~i10*~i12*i13*~i14+i0*i2*~i3*i4*i7*i8*i11*~i12*i13*~i14+~i0*i1*i3*i4*i7*i8*i11*~i12*i13*~i14+~i0*i1*i2*~i3*i12*~i14+~i0*i1*~i2*~i5*~i6*~i9*~i10*~i13*i14*~i15+~i1*i2*~i3*~i5*~i6*~i9*~i10*~i13*i14*~i15+i0*i2*~i3*i4*i7*i8*i11*~i13*i14*~i15+~i0*i1*i3*i4*i7*i8*i11*~i13*i14*~i15+~i1*~i2*~i12*i13*i14*~i15+i0*~i2*~i12*i13*i14*~i15+~i1*i3*~i12*i13*i14*~i15+i0*i3*~i12*i13*i14*~i15+~i0*i1*~i2*i4*i7*~i9*~i10*i12*i14*~i15+~i1*i2*~i3*i4*i7*~i9*~i10*i12*i14*~i15+i0*i2*~i3*~i5*~i6*i8*i11*i12*i14*~i15+~i0*i1*i3*~i5*~i6*i8*i11*i12*i14*~i15+~i0*i1*i2*~i3*~i13*i15+~i0*i1*~i2*i4*i7*~i9*~i10*~i12*i13*i15+~i1*i2*~i3*i4*i7*~i9*~i10*~i12*i13*i15+i0*i2*~i3*~i5*~i6*i8*i11*~i12*i13*i15+~i0*i1*i3*~i5*~i6*i8*i11*~i12*i13*i15+~i0*i1*i2*~i3*i12*i15+~i0*i1*i2*~i3*~i9*i10*~i11+~i0*i1*i2*~i3*~i8*i9*~i10+~i5*i6*~i7*~i12*i13*i14*~i15+~i4*i5*~i6*~i12*i13*i14*~i15+i0*i2*~i3*i4*~i6*~i9*~i10*~i12*i13*~i14+~i0*i1*i3*i4*~i6*~i9*~i10*~i12*i13*~i14+i0*i2*~i3*~i5*i7*i8*~i10*~i12*i13*~i14+~i0*i1*i3*~i5*i7*i8*~i10*~i12*i13*~i14+~i0*i1*~i2*i4*~i6*i8*i11*~i12*i13*~i14+~i1*i2*~i3*i4*~i6*i8*i11*~i12*i13*~i14+~i0*i1*~i2*~i5*i7*~i9*i11*~i12*i13*~i14+~i1*i2*~i3*~i5*i7*~i9*i11*~i12*i13*~i14+i0*i2*~i3*i4*~i6*~i9*~i10*~i13*i14*~i15+~i0*i1*i3*i4*~i6*~i9*~i10*~i13*i14*~i15+i0*i2*~i3*~i5*i7*i8*~i10*~i13*i14*~i15+~i0*i1*i3*~i5*i7*i8*~i10*~i13*i14*~i15+~i0*i1*~i2*i4*~i6*i8*i11*~i13*i14*~i15+~i1*i2*~i3*i4*~i6*i8*i11*~i13*i14*~i15+~i0*i1*~i2*~i5*i7*~i9*i11*~i13*i14*~i15+~i1*i2*~i3*~i5*i7*~i9*i11*~i13*i14*~i15+i0*i2*~i3*i4*~i6*i8*~i10*i12*i14*~i15+~i0*i1*i3*i4*~i6*i8*~i10*i12*i14*~i15+i0*i2*~i3*~i5*i7*~i9*i11*i12*i14*~i15+~i0*i1*i3*~i5*i7*~i9*i11*i12*i14*~i15+~i0*i1*~i2*~i5*~i6*i8*~i10*i12*i14*~i15+~i1*i2*~i3*~i5*~i6*i8*~i10*i12*i14*~i15+~i0*i1*~i2*i4*~i6*~i9*i11*i12*i14*~i15+~i1*i2*~i3*i4*~i6*~i9*i11*i12*i14*~i15+i0*i2*~i3*i4*~i6*i8*~i10*~i12*i13*i15+~i0*i1*i3*i4*~i6*i8*~i10*~i12*i13*i15+i0*i2*~i3*~i5*i7*~i9*i11*~i12*i13*i15+~i0*i1*i3*~i5*i7*~i9*i11*~i12*i13*i15+~i0*i1*~i2*~i5*~i6*i8*~i10*~i12*i13*i15+~i1*i2*~i3*~i5*~i6*i8*~i10*~i12*i13*i15+~i0*i1*~i2*i4*~i6*~i9*i11*~i12*i13*i15+~i1*i2*~i3*i4*~i6*~i9*i11*~i12*i13*i15+~i0*i1*i2*~i3*i8*i10*~i11+~i0*i1*i2*~i3*~i8*i9*i11+i4*i6*~i7*~i12*i13*i14*~i15+~i4*i5*i7*~i12*i13*i14*~i15+~i0*i1*~i2*i4*i7*i8*~i10*~i12*i13*~i14+~i1*i2*~i3*i4*i7*i8*~i10*~i12*i13*~i14+i0*i2*~i3*~i5*~i6*~i9*i11*~i12*i13*~i14+~i0*i1*i3*~i5*~i6*~i9*i11*~i12*i13*~i14+~i0*i1*~i2*i4*i7*~i9*i11*~i12*i13*~i14+~i1*i2*~i3*i4*i7*~i9*i11*~i12*i13*~i14+i0*i2*~i3*~i5*i7*~i9*~i10*~i12*i13*~i14+~i0*i1*i3*~i5*i7*~i9*~i10*~i12*i13*~i14+i0*i2*~i3*~i5*~i6*i8*~i10*~i12*i13*~i14+~i0*i1*i3*~i5*~i6*i8*~i10*~i12*i13*~i14+~i0*i1*~i2*~i5*i7*i8*i11*~i12*i13*~i14+~i1*i2*~i3*~i5*i7*i8*i11*~i12*i13*~i14+~i0*i1*~i2*i4*i7*i8*~i10*~i13*i14*~i15+~i1*i2*~i3*i4*i7*i8*~i10*~i13*i14*~i15+i0*i2*~i3*~i5*~i6*~i9*i11*~i13*i14*~i15+~i0*i1*i3*~i5*~i6*~i9*i11*~i13*i14*~i15+~i0*i1*~i2*i4*i7*~i9*i11*~i13*i14*~i15+~i1*i2*~i3*i4*i7*~i9*i11*~i13*i14*~i15+i0*i2*~i3*~i5*i7*~i9*~i10*~i13*i14*~i15+~i0*i1*i3*~i5*i7*~i9*~i10*~i13*i14*~i15+i0*i2*~i3*~i5*~i6*i8*~i10*~i13*i14*~i15+~i0*i1*i3*~i5*~i6*i8*~i10*~i13*i14*~i15+~i0*i1*~i2*~i5*i7*i8*i11*~i13*i14*~i15+~i1*i2*~i3*~i5*i7*i8*i11*~i13*i14*~i15+i0*i2*~i3*~i5*~i6*~i9*~i10*i12*i14*~i15+~i0*i1*i3*~i5*~i6*~i9*~i10*i12*i14*~i15+i0*i2*~i3*i4*i7*i8*~i10*i12*i14*~i15+~i0*i1*i3*i4*i7*i8*~i10*i12*i14*~i15+~i0*i1*~i2*~i5*i7*~i9*~i10*i12*i14*~i15+~i1*i2*~i3*~i5*i7*~i9*~i10*i12*i14*~i15+i0*i2*~i3*i4*i7*~i9*i11*i12*i14*~i15+~i0*i1*i3*i4*i7*~i9*i11*i12*i14*~i15+~i0*i1*~i2*i4*i7*i8*i11*i12*i14*~i15+~i1*i2*~i3*i4*i7*i8*i11*i12*i14*~i15+~i0*i1*~i2*~i5*~i6*~i9*i11*i12*i14*~i15+~i1*i2*~i3*~i5*~i6*~i9*i11*i12*i14*~i15+i0*i2*~i3*~i5*~i6*~i9*~i10*~i12*i13*i15+~i0*i1*i3*~i5*~i6*~i9*~i10*~i12*i13*i15+i0*i2*~i3*i4*i7*i8*~i10*~i12*i13*i15+~i0*i1*i3*i4*i7*i8*~i10*~i12*i13*i15+~i0*i1*~i2*~i5*i7*~i9*~i10*~i12*i13*i15+~i1*i2*~i3*~i5*i7*~i9*~i10*~i12*i13*i15+i0*i2*~i3*i4*i7*~i9*i11*~i12*i13*i15+~i0*i1*i3*i4*i7*~i9*i11*~i12*i13*i15+~i0*i1*~i2*i4*i7*i8*i11*~i12*i13*i15+~i1*i2*~i3*i4*i7*i8*i11*~i12*i13*i15+~i0*i1*~i2*~i5*~i6*~i9*i11*~i12*i13*i15+~i1*i2*~i3*~i5*~i6*~i9*i11*~i12*i13*i15+~i0*i1*~i2*i4*~i6*~i9*~i10*~i12*i13*~i14+~i1*i2*~i3*i4*~i6*~i9*~i10*~i12*i13*~i14+~i0*i1*~i2*~i5*i7*~i9*~i10*~i12*i13*~i14+~i1*i2*~i3*~i5*i7*~i9*~i10*~i12*i13*~i14+i0*i2*~i3*i4*i7*~i9*~i10*~i12*i13*~i14+~i0*i1*i3*i4*i7*~i9*~i10*~i12*i13*~i14+~i0*i1*~i2*~i5*~i6*i8*~i10*~i12*i13*~i14+~i1*i2*~i3*~i5*~i6*i8*~i10*~i12*i13*~i14+i0*i2*~i3*i4*~i6*i8*~i10*~i12*i13*~i14+~i0*i1*i3*i4*~i6*i8*~i10*~i12*i13*~i14+~i0*i1*~i2*~i5*~i6*~i9*i11*~i12*i13*~i14+~i1*i2*~i3*~i5*~i6*~i9*i11*~i12*i13*~i14+i0*i2*~i3*i4*~i6*~i9*i11*~i12*i13*~i14+~i0*i1*i3*i4*~i6*~i9*i11*~i12*i13*~i14+i0*i2*~i3*~i5*i7*~i9*i11*~i12*i13*~i14+~i0*i1*i3*~i5*i7*~i9*i11*~i12*i13*~i14+i0*i2*~i3*~i5*~i6*i8*i11*~i12*i13*~i14+~i0*i1*i3*~i5*~i6*i8*i11*~i12*i13*~i14+~i0*i1*~i2*i4*~i6*~i9*~i10*~i13*i14*~i15+~i1*i2*~i3*i4*~i6*~i9*~i10*~i13*i14*~i15+~i0*i1*~i2*~i5*i7*~i9*~i10*~i13*i14*~i15+~i1*i2*~i3*~i5*i7*~i9*~i10*~i13*i14*~i15+i0*i2*~i3*i4*i7*~i9*~i10*~i13*i14*~i15+~i0*i1*i3*i4*i7*~i9*~i10*~i13*i14*~i15+~i0*i1*~i2*~i5*~i6*i8*~i10*~i13*i14*~i15+~i1*i2*~i3*~i5*~i6*i8*~i10*~i13*i14*~i15+i0*i2*~i3*i4*~i6*i8*~i10*~i13*i14*~i15+~i0*i1*i3*i4*~i6*i8*~i10*~i13*i14*~i15+~i0*i1*~i2*~i5*~i6*~i9*i11*~i13*i14*~i15+~i1*i2*~i3*~i5*~i6*~i9*i11*~i13*i14*~i15+i0*i2*~i3*i4*~i6*~i9*i11*~i13*i14*~i15+~i0*i1*i3*i4*~i6*~i9*i11*~i13*i14*~i15+i0*i2*~i3*~i5*i7*~i9*i11*~i13*i14*~i15+~i0*i1*i3*~i5*i7*~i9*i11*~i13*i14*~i15+i0*i2*~i3*~i5*~i6*i8*i11*~i13*i14*~i15+~i0*i1*i3*~i5*~i6*i8*i11*~i13*i14*~i15+~i0*i1*~i2*i4*~i6*~i9*~i10*i12*i14*~i15+~i1*i2*~i3*i4*~i6*~i9*~i10*i12*i14*~i15+i0*i2*~i3*i4*~i6*~i9*~i10*i12*i14*~i15+~i0*i1*i3*i4*~i6*~i9*~i10*i12*i14*~i15+i0*i2*~i3*~i5*i7*~i9*~i10*i12*i14*~i15+~i0*i1*i3*~i5*i7*~i9*~i10*i12*i14*~i15+i0*i2*~i3*~i5*i7*i8*~i10*i12*i14*~i15+~i0*i1*i3*~i5*i7*i8*~i10*i12*i14*~i15+~i0*i1*~i2*i4*~i6*i8*~i10*i12*i14*~i15+~i1*i2*~i3*i4*~i6*i8*~i10*i12*i14*~i15+~i0*i1*~i2*~i5*i7*i8*~i10*i12*i14*~i15+~i1*i2*~i3*~i5*i7*i8*~i10*i12*i14*~i15+i0*i2*~i3*i4*~i6*~i9*i11*i12*i14*~i15+~i0*i1*i3*i4*~i6*~i9*i11*i12*i14*~i15+~i0*i1*~i2*~i5*i7*~i9*i11*i12*i14*~i15+~i1*i2*~i3*~i5*i7*~i9*i11*i12*i14*~i15+~i0*i1*~i2*~i5*~i6*i8*i11*i12*i14*~i15+~i1*i2*~i3*~i5*~i6*i8*i11*i12*i14*~i15+i0*i2*~i3*i4*~i6*i8*i11*i12*i14*~i15+~i0*i1*i3*i4*~i6*i8*i11*i12*i14*~i15+i0*i2*~i3*~i5*i7*i8*i11*i12*i14*~i15+~i0*i1*i3*~i5*i7*i8*i11*i12*i14*~i15+~i0*i1*~i2*i4*~i6*~i9*~i10*~i12*i13*i15+~i1*i2*~i3*i4*~i6*~i9*~i10*~i12*i13*i15+i0*i2*~i3*i4*~i6*~i9*~i10*~i12*i13*i15+~i0*i1*i3*i4*~i6*~i9*~i10*~i12*i13*i15+i0*i2*~i3*~i5*i7*~i9*~i10*~i12*i13*i15+~i0*i1*i3*~i5*i7*~i9*~i10*~i12*i13*i15+i0*i2*~i3*~i5*i7*i8*~i10*~i12*i13*i15+~i0*i1*i3*~i5*i7*i8*~i10*~i12*i13*i15+~i0*i1*~i2*i4*~i6*i8*~i10*~i12*i13*i15+~i1*i2*~i3*i4*~i6*i8*~i10*~i12*i13*i15+~i0*i1*~i2*~i5*i7*i8*~i10*~i12*i13*i15+~i1*i2*~i3*~i5*i7*i8*~i10*~i12*i13*i15+i0*i2*~i3*i4*~i6*~i9*i11*~i12*i13*i15+~i0*i1*i3*i4*~i6*~i9*i11*~i12*i13*i15+~i0*i1*~i2*~i5*i7*~i9*i11*~i12*i13*i15+~i1*i2*~i3*~i5*i7*~i9*i11*~i12*i13*i15+~i0*i1*~i2*~i5*~i6*i8*i11*~i12*i13*i15+~i1*i2*~i3*~i5*~i6*i8*i11*~i12*i13*i15+i0*i2*~i3*i4*~i6*i8*i11*~i12*i13*i15+~i0*i1*i3*i4*~i6*i8*i11*~i12*i13*i15+i0*i2*~i3*~i5*i7*i8*i11*~i12*i13*i15+~i0*i1*i3*~i5*i7*i8*i11*~i12*i13*i15+i0*~i2*~i13*~i14+~i1*i3*~i13*~i14+i0*i3*~i13*~i14+~i1*~i2*i12*~i14+i0*~i2*i12*~i14+~i1*i3*i12*~i14+i0*i3*i12*~i14+~i1*~i2*~i13*i15+i0*~i2*~i13*i15+~i1*i3*~i13*i15+i0*i3*~i13*i15+~i1*~i2*i12*i15+i0*~i2*i12*i15+~i1*i3*i12*i15+i0*i3*i12*i15+~i5*i6*~i7*~i13*~i14+~i4*i5*~i6*~i13*~i14+~i1*~i2*~i9*i10*~i11+i0*~i2*i8*i10*~i11+~i1*i3*i8*i10*~i11+i0*i3*~i9*i10*~i11+~i1*~i2*~i8*i9*~i10+i0*~i2*~i8*i9*i11+~i1*i3*~i8*i9*i11+i0*i3*~i8*i9*~i10+i4*i6*~i7*i12*~i14+~i4*i5*i7*i12*~i14+i4*i6*~i7*~i13*i15+~i4*i5*i7*~i13*i15+~i5*i6*~i7*i12*i15+~i4*i5*~i6*i12*i15+i0*i2*~i3*~i5*~i6*~i9*~i10*~i12*i13*~i14+~i0*i1*i3*~i5*~i6*~i9*~i10*~i12*i13*~i14+~i0*i1*~i2*i4*i7*~i9*~i10*~i12*i13*~i14+~i1*i2*~i3*i4*i7*~i9*~i10*~i12*i13*~i14+~i0*i1*~i2*i4*~i6*i8*~i10*~i12*i13*~i14+~i1*i2*~i3*i4*~i6*i8*~i10*~i12*i13*~i14+~i0*i1*~i2*~i5*i7*i8*~i10*~i12*i13*~i14+~i1*i2*~i3*~i5*i7*i8*~i10*~i12*i13*~i14+i0*i2*~i3*i4*i7*i8*~i10*~i12*i13*~i14+~i0*i1*i3*i4*i7*i8*~i10*~i12*i13*~i14+~i5*i6*~i7*~i9*i10*~i11+~i4*i5*~i6*~i9*i10*~i11+~i0*i1*~i2*~i5*~i6*~i8*i9*i10*~i11*~i12*i13*~i14+~i1*i2*~i3*~i5*~i6*~i8*i9*i10*~i11*~i12*i13*~i14+i0*i2*~i3*i4*i7*~i8*i9*i10*~i11*~i12*i13*~i14+~i0*i1*i3*i4*i7*~i8*i9*i10*~i11*~i12*i13*~i14+~i0*i1*~i2*~i4*i5*i6*~i7*~i9*~i10*~i12*i13*~i14+~i1*i2*~i3*~i4*i5*i6*~i7*~i9*~i10*~i12*i13*~i14+i0*i2*~i3*~i4*i5*i6*~i7*i8*i11*~i12*i13*~i14+~i0*i1*i3*~i4*i5*i6*~i7*i8*i11*~i12*i13*~i14+~i5*i6*~i7*~i8*i9*~i10+~i4*i5*~i6*~i8*i9*~i10+~i0*i1*~i2*i4*~i6*~i9*i11*~i12*i13*~i14+~i1*i2*~i3*i4*~i6*~i9*i11*~i12*i13*~i14+i0*i2*~i3*i4*i7*~i9*i11*~i12*i13*~i14+~i0*i1*i3*i4*i7*~i9*i11*~i12*i13*~i14+~i0*i1*~i2*~i5*~i6*i8*i11*~i12*i13*~i14+~i1*i2*~i3*~i5*~i6*i8*i11*~i12*i13*~i14+i0*i2*~i3*i4*~i6*i8*i11*~i12*i13*~i14+~i0*i1*i3*i4*~i6*i8*i11*~i12*i13*~i14+i0*i2*~i3*~i5*i7*i8*i11*~i12*i13*~i14+~i0*i1*i3*~i5*i7*i8*i11*~i12*i13*~i14+~i0*i1*~i2*i4*i7*i8*i11*~i12*i13*~i14+~i1*i2*~i3*i4*i7*i8*i11*~i12*i13*~i14+i0*i2*~i3*~i5*~i6*~i9*~i10*~i13*i14*~i15+~i0*i1*i3*~i5*~i6*~i9*~i10*~i13*i14*~i15+~i0*i1*~i2*i4*i7*~i9*~i10*~i13*i14*~i15+~i1*i2*~i3*i4*i7*~i9*~i10*~i13*i14*~i15+~i0*i1*~i2*i4*~i6*i8*~i10*~i13*i14*~i15+~i1*i2*~i3*i4*~i6*i8*~i10*~i13*i14*~i15+~i0*i1*~i2*~i5*i7*i8*~i10*~i13*i14*~i15+~i1*i2*~i3*~i5*i7*i8*~i10*~i13*i14*~i15+i0*i2*~i3*i4*i7*i8*~i10*~i13*i14*~i15+~i0*i1*i3*i4*i7*i8*~i10*~i13*i14*~i15+~i0*i1*~i2*~i5*~i6*~i8*i9*i10*~i11*~i13*i14*~i15+~i1*i2*~i3*~i5*~i6*~i8*i9*i10*~i11*~i13*i14*~i15+i0*i2*~i3*i4*i7*~i8*i9*i10*~i11*~i13*i14*~i15+~i0*i1*i3*i4*i7*~i8*i9*i10*~i11*~i13*i14*~i15+~i0*i1*~i2*~i4*i5*i6*~i7*~i9*~i10*~i13*i14*~i15+~i1*i2*~i3*~i4*i5*i6*~i7*~i9*~i10*~i13*i14*~i15+i0*i2*~i3*~i4*i5*i6*~i7*i8*i11*~i13*i14*~i15+~i0*i1*i3*~i4*i5*i6*~i7*i8*i11*~i13*i14*~i15+~i0*i1*~i2*i4*~i6*~i9*i11*~i13*i14*~i15+~i1*i2*~i3*i4*~i6*~i9*i11*~i13*i14*~i15+i0*i2*~i3*i4*i7*~i9*i11*~i13*i14*~i15+~i0*i1*i3*i4*i7*~i9*i11*~i13*i14*~i15+~i0*i1*~i2*~i5*~i6*i8*i11*~i13*i14*~i15+~i1*i2*~i3*~i5*~i6*i8*i11*~i13*i14*~i15+i0*i2*~i3*i4*~i6*i8*i11*~i13*i14*~i15+~i0*i1*i3*i4*~i6*i8*i11*~i13*i14*~i15+i0*i2*~i3*~i5*i7*i8*i11*~i13*i14*~i15+~i0*i1*i3*~i5*i7*i8*i11*~i13*i14*~i15+~i0*i1*~i2*i4*i7*i8*i11*~i13*i14*~i15+~i1*i2*~i3*i4*i7*i8*i11*~i13*i14*~i15+~i0*i1*~i2*~i5*~i6*~i9*~i10*i12*i14*~i15+~i1*i2*~i3*~i5*~i6*~i9*~i10*i12*i14*~i15+i0*i2*~i3*i4*i7*~i9*~i10*i12*i14*~i15+~i0*i1*i3*i4*i7*~i9*~i10*i12*i14*~i15+i0*i2*~i3*~i5*~i6*i8*~i10*i12*i14*~i15+~i0*i1*i3*~i5*~i6*i8*~i10*i12*i14*~i15+~i0*i1*~i2*i4*i7*i8*~i10*i12*i14*~i15+~i1*i2*~i3*i4*i7*i8*~i10*i12*i14*~i15+~i0*i1*~i2*i4*~i6*~i8*i9*i10*~i11*i12*i14*~i15+~i1*i2*~i3*i4*~i6*~i8*i9*i10*~i11*i12*i14*~i15+i0*i2*~i3*~i5*i7*~i8*i9*i10*~i11*i12*i14*~i15+~i0*i1*i3*~i5*i7*~i8*i9*i10*~i11*i12*i14*~i15+~i0*i1*~i2*~i4*i5*i6*~i7*i8*~i10*i12*i14*~i15+~i1*i2*~i3*~i4*i5*i6*~i7*i8*~i10*i12*i14*~i15+i0*i2*~i3*~i4*i5*i6*~i7*~i9*i11*i12*i14*~i15+~i0*i1*i3*~i4*i5*i6*~i7*~i9*i11*i12*i14*~i15+i0*i2*~i3*~i5*~i6*~i9*i11*i12*i14*~i15+~i0*i1*i3*~i5*~i6*~i9*i11*i12*i14*~i15+~i0*i1*~i2*i4*i7*~i9*i11*i12*i14*~i15+~i1*i2*~i3*i4*i7*~i9*i11*i12*i14*~i15+~i0*i1*~i2*i4*~i6*i8*i11*i12*i14*~i15+~i1*i2*~i3*i4*~i6*i8*i11*i12*i14*~i15+~i0*i1*~i2*~i5*i7*i8*i11*i12*i14*~i15+~i1*i2*~i3*~i5*i7*i8*i11*i12*i14*~i15+i0*i2*~i3*i4*i7*i8*i11*i12*i14*~i15+~i0*i1*i3*i4*i7*i8*i11*i12*i14*~i15+~i0*i1*~i2*~i5*~i6*~i9*~i10*~i12*i13*i15+~i1*i2*~i3*~i5*~i6*~i9*~i10*~i12*i13*i15+i0*i2*~i3*i4*i7*~i9*~i10*~i12*i13*i15+~i0*i1*i3*i4*i7*~i9*~i10*~i12*i13*i15+i0*i2*~i3*~i5*~i6*i8*~i10*~i12*i13*i15+~i0*i1*i3*~i5*~i6*i8*~i10*~i12*i13*i15+~i0*i1*~i2*i4*i7*i8*~i10*~i12*i13*i15+~i1*i2*~i3*i4*i7*i8*~i10*~i12*i13*i15+~i0*i1*~i2*i4*~i6*~i8*i9*i10*~i11*~i12*i13*i15+~i1*i2*~i3*i4*~i6*~i8*i9*i10*~i11*~i12*i13*i15+i0*i2*~i3*~i5*i7*~i8*i9*i10*~i11*~i12*i13*i15+~i0*i1*i3*~i5*i7*~i8*i9*i10*~i11*~i12*i13*i15+~i0*i1*~i2*~i4*i5*i6*~i7*i8*~i10*~i12*i13*i15+~i1*i2*~i3*~i4*i5*i6*~i7*i8*~i10*~i12*i13*i15+i0*i2*~i3*~i4*i5*i6*~i7*~i9*i11*~i12*i13*i15+~i0*i1*i3*~i4*i5*i6*~i7*~i9*i11*~i12*i13*i15+i0*i2*~i3*~i5*~i6*~i9*i11*~i12*i13*i15+~i0*i1*i3*~i5*~i6*~i9*i11*~i12*i13*i15+~i0*i1*~i2*i4*i7*~i9*i11*~i12*i13*i15+~i1*i2*~i3*i4*i7*~i9*i11*~i12*i13*i15+~i0*i1*~i2*i4*~i6*i8*i11*~i12*i13*i15+~i1*i2*~i3*i4*~i6*i8*i11*~i12*i13*i15+~i0*i1*~i2*~i5*i7*i8*i11*~i12*i13*i15+~i1*i2*~i3*~i5*i7*i8*i11*~i12*i13*i15+i0*i2*~i3*i4*i7*i8*i11*~i12*i13*i15+~i0*i1*i3*i4*i7*i8*i11*~i12*i13*i15+i4*i6*~i7*~i13*~i14+~i4*i5*i7*~i13*~i14+i0*~i2*~i8*i9*~i10+~i1*i3*~i8*i9*~i10+i0*~i2*~i9*i10*~i11+~i1*i3*~i9*i10*~i11+~i1*~i2*i8*i10*~i11+i0*i3*i8*i10*~i11+~i1*~i2*~i8*i9*i11+i0*i3*~i8*i9*i11+~i4*i5*~i6*i12*~i14+~i5*i6*~i7*i12*~i14+~i4*i5*~i6*~i13*i15+~i5*i6*~i7*~i13*i15+i4*i6*~i7*i12*i15+~i4*i5*i7*i12*i15+i0*i2*~i3*~i4*i5*i6*~i7*~i9*~i10*~i12*i13*~i14+~i0*i1*i3*~i4*i5*i6*~i7*~i9*~i10*~i12*i13*~i14+i4*i6*~i7*i8*i10*~i11+~i4*i5*i7*i8*i10*~i11+i0*i2*~i3*~i5*~i6*~i8*i9*i10*~i11*~i12*i13*~i14+~i0*i1*i3*~i5*~i6*~i8*i9*i10*~i11*~i12*i13*~i14+~i0*i1*~i2*i4*i7*~i8*i9*i10*~i11*~i12*i13*~i14+~i1*i2*~i3*i4*i7*~i8*i9*i10*~i11*~i12*i13*~i14+i4*i6*~i7*~i8*i9*i11+~i4*i5*i7*~i8*i9*i11+~i0*i1*~i2*~i4*i5*i6*~i7*i8*i11*~i12*i13*~i14+~i1*i2*~i3*~i4*i5*i6*~i7*i8*i11*~i12*i13*~i14+i0*i2*~i3*~i4*i5*i6*~i7*~i9*~i10*~i13*i14*~i15+~i0*i1*i3*~i4*i5*i6*~i7*~i9*~i10*~i13*i14*~i15+i0*i2*~i3*~i5*~i6*~i8*i9*i10*~i11*~i13*i14*~i15+~i0*i1*i3*~i5*~i6*~i8*i9*i10*~i11*~i13*i14*~i15+~i0*i1*~i2*i4*i7*~i8*i9*i10*~i11*~i13*i14*~i15+~i1*i2*~i3*i4*i7*~i8*i9*i10*~i11*~i13*i14*~i15+~i0*i1*~i2*~i4*i5*i6*~i7*i8*i11*~i13*i14*~i15+~i1*i2*~i3*~i4*i5*i6*~i7*i8*i11*~i13*i14*~i15+i0*i2*~i3*~i4*i5*i6*~i7*i8*~i10*i12*i14*~i15+~i0*i1*i3*~i4*i5*i6*~i7*i8*~i10*i12*i14*~i15+i0*i2*~i3*i4*~i6*~i8*i9*i10*~i11*i12*i14*~i15+~i0*i1*i3*i4*~i6*~i8*i9*i10*~i11*i12*i14*~i15+~i0*i1*~i2*~i5*i7*~i8*i9*i10*~i11*i12*i14*~i15+~i1*i2*~i3*~i5*i7*~i8*i9*i10*~i11*i12*i14*~i15+~i0*i1*~i2*~i4*i5*i6*~i7*~i9*i11*i12*i14*~i15+~i1*i2*~i3*~i4*i5*i6*~i7*~i9*i11*i12*i14*~i15+i0*i2*~i3*~i4*i5*i6*~i7*i8*~i10*~i12*i13*i15+~i0*i1*i3*~i4*i5*i6*~i7*i8*~i10*~i12*i13*i15+i0*i2*~i3*i4*~i6*~i8*i9*i10*~i11*~i12*i13*i15+~i0*i1*i3*i4*~i6*~i8*i9*i10*~i11*~i12*i13*i15+~i0*i1*~i2*~i5*i7*~i8*i9*i10*~i11*~i12*i13*i15+~i1*i2*~i3*~i5*i7*~i8*i9*i10*~i11*~i12*i13*i15+~i0*i1*~i2*~i4*i5*i6*~i7*~i9*i11*~i12*i13*i15+~i1*i2*~i3*~i4*i5*i6*~i7*~i9*i11*~i12*i13*i15+i4*i6*~i7*~i8*i9*~i10+~i4*i5*i7*~i8*i9*~i10+~i0*i1*~i2*~i4*i5*i6*~i7*i8*~i10*~i12*i13*~i14+~i1*i2*~i3*~i4*i5*i6*~i7*i8*~i10*~i12*i13*~i14+i0*i2*~i3*~i4*i5*i6*~i7*i8*~i10*~i12*i13*~i14+~i0*i1*i3*~i4*i5*i6*~i7*i8*~i10*~i12*i13*~i14+i4*i6*~i7*~i9*i10*~i11+~i4*i5*i7*~i9*i10*~i11+~i0*i1*~i2*i4*~i6*~i8*i9*i10*~i11*~i12*i13*~i14+~i1*i2*~i3*i4*~i6*~i8*i9*i10*~i11*~i12*i13*~i14+i0*i2*~i3*i4*~i6*~i8*i9*i10*~i11*~i12*i13*~i14+~i0*i1*i3*i4*~i6*~i8*i9*i10*~i11*~i12*i13*~i14+~i0*i1*~i2*~i5*i7*~i8*i9*i10*~i11*~i12*i13*~i14+~i1*i2*~i3*~i5*i7*~i8*i9*i10*~i11*~i12*i13*~i14+i0*i2*~i3*~i5*i7*~i8*i9*i10*~i11*~i12*i13*~i14+~i0*i1*i3*~i5*i7*~i8*i9*i10*~i11*~i12*i13*~i14+~i4*i5*~i6*i8*i10*~i11+~i5*i6*~i7*i8*i10*~i11+~i0*i1*~i2*~i4*i5*i6*~i7*~i9*i11*~i12*i13*~i14+~i1*i2*~i3*~i4*i5*i6*~i7*~i9*i11*~i12*i13*~i14+i0*i2*~i3*~i4*i5*i6*~i7*~i9*i11*~i12*i13*~i14+~i0*i1*i3*~i4*i5*i6*~i7*~i9*i11*~i12*i13*~i14+~i4*i5*~i6*~i8*i9*i11+~i5*i6*~i7*~i8*i9*i11+~i0*i1*~i2*~i4*i5*i6*~i7*i8*~i10*~i13*i14*~i15+~i1*i2*~i3*~i4*i5*i6*~i7*i8*~i10*~i13*i14*~i15+i0*i2*~i3*~i4*i5*i6*~i7*i8*~i10*~i13*i14*~i15+~i0*i1*i3*~i4*i5*i6*~i7*i8*~i10*~i13*i14*~i15+~i0*i1*~i2*i4*~i6*~i8*i9*i10*~i11*~i13*i14*~i15+~i1*i2*~i3*i4*~i6*~i8*i9*i10*~i11*~i13*i14*~i15+i0*i2*~i3*i4*~i6*~i8*i9*i10*~i11*~i13*i14*~i15+~i0*i1*i3*i4*~i6*~i8*i9*i10*~i11*~i13*i14*~i15+~i0*i1*~i2*~i5*i7*~i8*i9*i10*~i11*~i13*i14*~i15+~i1*i2*~i3*~i5*i7*~i8*i9*i10*~i11*~i13*i14*~i15+i0*i2*~i3*~i5*i7*~i8*i9*i10*~i11*~i13*i14*~i15+~i0*i1*i3*~i5*i7*~i8*i9*i10*~i11*~i13*i14*~i15+~i0*i1*~i2*~i4*i5*i6*~i7*~i9*i11*~i13*i14*~i15+~i1*i2*~i3*~i4*i5*i6*~i7*~i9*i11*~i13*i14*~i15+i0*i2*~i3*~i4*i5*i6*~i7*~i9*i11*~i13*i14*~i15+~i0*i1*i3*~i4*i5*i6*~i7*~i9*i11*~i13*i14*~i15+~i0*i1*~i2*~i4*i5*i6*~i7*~i9*~i10*i12*i14*~i15+~i1*i2*~i3*~i4*i5*i6*~i7*~i9*~i10*i12*i14*~i15+i0*i2*~i3*~i4*i5*i6*~i7*~i9*~i10*i12*i14*~i15+~i0*i1*i3*~i4*i5*i6*~i7*~i9*~i10*i12*i14*~i15+~i0*i1*~i2*~i5*~i6*~i8*i9*i10*~i11*i12*i14*~i15+~i1*i2*~i3*~i5*~i6*~i8*i9*i10*~i11*i12*i14*~i15+i0*i2*~i3*~i5*~i6*~i8*i9*i10*~i11*i12*i14*~i15+~i0*i1*i3*~i5*~i6*~i8*i9*i10*~i11*i12*i14*~i15+~i0*i1*~i2*i4*i7*~i8*i9*i10*~i11*i12*i14*~i15+~i1*i2*~i3*i4*i7*~i8*i9*i10*~i11*i12*i14*~i15+i0*i2*~i3*i4*i7*~i8*i9*i10*~i11*i12*i14*~i15+~i0*i1*i3*i4*i7*~i8*i9*i10*~i11*i12*i14*~i15+~i0*i1*~i2*~i4*i5*i6*~i7*i8*i11*i12*i14*~i15+~i1*i2*~i3*~i4*i5*i6*~i7*i8*i11*i12*i14*~i15+i0*i2*~i3*~i4*i5*i6*~i7*i8*i11*i12*i14*~i15+~i0*i1*i3*~i4*i5*i6*~i7*i8*i11*i12*i14*~i15+~i0*i1*~i2*~i4*i5*i6*~i7*~i9*~i10*~i12*i13*i15+~i1*i2*~i3*~i4*i5*i6*~i7*~i9*~i10*~i12*i13*i15+i0*i2*~i3*~i4*i5*i6*~i7*~i9*~i10*~i12*i13*i15+~i0*i1*i3*~i4*i5*i6*~i7*~i9*~i10*~i12*i13*i15+~i0*i1*~i2*~i5*~i6*~i8*i9*i10*~i11*~i12*i13*i15+~i1*i2*~i3*~i5*~i6*~i8*i9*i10*~i11*~i12*i13*i15+i0*i2*~i3*~i5*~i6*~i8*i9*i10*~i11*~i12*i13*i15+~i0*i1*i3*~i5*~i6*~i8*i9*i10*~i11*~i12*i13*i15+~i0*i1*~i2*i4*i7*~i8*i9*i10*~i11*~i12*i13*i15+~i1*i2*~i3*i4*i7*~i8*i9*i10*~i11*~i12*i13*i15+i0*i2*~i3*i4*i7*~i8*i9*i10*~i11*~i12*i13*i15+~i0*i1*i3*i4*i7*~i8*i9*i10*~i11*~i12*i13*i15+~i0*i1*~i2*~i4*i5*i6*~i7*i8*i11*~i12*i13*i15+~i1*i2*~i3*~i4*i5*i6*~i7*i8*i11*~i12*i13*i15+i0*i2*~i3*~i4*i5*i6*~i7*i8*i11*~i12*i13*i15+~i0*i1*i3*~i4*i5*i6*~i7*i8*i11*~i12*i13*i15+~i0*i1*~i2*~i4*i5*i6*~i7*~i8*i9*i10*~i11*~i12*i13*~i14+~i1*i2*~i3*~i4*i5*i6*~i7*~i8*i9*i10*~i11*~i12*i13*~i14+i0*i2*~i3*~i4*i5*i6*~i7*~i8*i9*i10*~i11*~i12*i13*~i14+~i0*i1*i3*~i4*i5*i6*~i7*~i8*i9*i10*~i11*~i12*i13*~i14+~i0*i1*~i2*~i4*i5*i6*~i7*~i8*i9*i10*~i11*~i13*i14*~i15+~i1*i2*~i3*~i4*i5*i6*~i7*~i8*i9*i10*~i11*~i13*i14*~i15+i0*i2*~i3*~i4*i5*i6*~i7*~i8*i9*i10*~i11*~i13*i14*~i15+~i0*i1*i3*~i4*i5*i6*~i7*~i8*i9*i10*~i11*~i13*i14*~i15+~i0*i1*~i2*~i4*i5*i6*~i7*~i8*i9*i10*~i11*i12*i14*~i15+~i1*i2*~i3*~i4*i5*i6*~i7*~i8*i9*i10*~i11*i12*i14*~i15+i0*i2*~i3*~i4*i5*i6*~i7*~i8*i9*i10*~i11*i12*i14*~i15+~i0*i1*i3*~i4*i5*i6*~i7*~i8*i9*i10*~i11*i12*i14*~i15+~i0*i1*~i2*~i4*i5*i6*~i7*~i8*i9*i10*~i11*~i12*i13*i15+~i1*i2*~i3*~i4*i5*i6*~i7*~i8*i9*i10*~i11*~i12*i13*i15+i0*i2*~i3*~i4*i5*i6*~i7*~i8*i9*i10*~i11*~i12*i13*i15+~i0*i1*i3*~i4*i5*i6*~i7*~i8*i9*i10*~i11*~i12*i13*i15
+--------------------------
+NUM TRANSISTORS: 9518 INDIVIDUAL: 0 GENERATION: 0
+NUM TRANSISTORS: 8006 INDIVIDUAL: 0 GENERATION: 50000
+Circuit max depth: 489
+AND: 3444
+OR: 501
+NOT: 21
+NAND: 11
+NOR: 32
+XOR: 3
+XNOR: 4
+TOTAL GATES: 4016
+Num transistors: 7990
+Circuit max depth: 489
+AND: 3304
+OR: 500
+NOT: 20
+NAND: 8
+NOR: 48
+XOR: 3
+XNOR: 3
+TOTAL GATES: 3886
+Num transistors: 7713
+Circuit max depth: 404
+AND: 3158
+OR: 501
+NOT: 15
+NAND: 8
+NOR: 52
+XOR: 3
+XNOR: 3
+TOTAL GATES: 3740
+Num transistors: 7422
+Circuit max depth: 391
+AND: 3103
+OR: 503
+NOT: 12
+NAND: 9
+NOR: 56
+XOR: 4
+XNOR: 3
+TOTAL GATES: 3690
+Num transistors: 7322
+Circuit max depth: 387
+AND: 3062
+OR: 505
+NOT: 12
+NAND: 8
+NOR: 55
+XOR: 5
+XNOR: 3
+TOTAL GATES: 3650
+Num transistors: 7244
+Circuit max depth: 368
+AND: 3027
+OR: 504
+NOT: 14
+NAND: 9
+NOR: 56
+XOR: 4
+XNOR: 3
+TOTAL GATES: 3617
+Num transistors: 7174
+Circuit max depth: 365
+AND: 3019
+OR: 504
+NOT: 17
+NAND: 9
+NOR: 53
+XOR: 4
+XNOR: 3
+TOTAL GATES: 3609
+Num transistors: 7158
+Circuit max depth: 346
+AND: 2941
+OR: 507
+NOT: 19
+NAND: 7
+NOR: 48
+XOR: 4
+XNOR: 3
+TOTAL GATES: 3529
+Num transistors: 7001
+Circuit max depth: 351
+AND: 2905
+OR: 507
+NOT: 22
+NAND: 8
+NOR: 47
+XOR: 5
+XNOR: 3
+TOTAL GATES: 3497
+Num transistors: 6936
+Circuit max depth: 330
+AND: 2800
+OR: 504
+NOT: 25
+NAND: 9
+NOR: 48
+XOR: 4
+XNOR: 3
+TOTAL GATES: 3393
+Num transistors: 6723
+NUM TRANSISTORS: 6656 INDIVIDUAL: 0 GENERATION: 100000
+Circuit max depth: 330
+AND: 2755
+OR: 507
+NOT: 27
+NAND: 10
+NOR: 46
+XOR: 5
+XNOR: 3
+TOTAL GATES: 3353
+Num transistors: 6644
+Circuit max depth: 330
+AND: 2736
+OR: 507
+NOT: 27
+NAND: 10
+NOR: 49
+XOR: 4
+XNOR: 2
+TOTAL GATES: 3335
+Num transistors: 6602
+Circuit max depth: 301
+AND: 2713
+OR: 506
+NOT: 27
+NAND: 10
+NOR: 47
+XOR: 4
+XNOR: 2
+TOTAL GATES: 3309
+Num transistors: 6552
+Circuit max depth: 263
+AND: 2616
+OR: 507
+NOT: 31
+NAND: 11
+NOR: 47
+XOR: 6
+XNOR: 2
+TOTAL GATES: 3220
+Num transistors: 6372
+Circuit max depth: 256
+AND: 2514
+OR: 500
+NOT: 31
+NAND: 11
+NOR: 44
+XOR: 5
+XNOR: 3
+TOTAL GATES: 3108
+Num transistors: 6152
+Circuit max depth: 218
+AND: 2462
+OR: 488
+NOT: 30
+NAND: 14
+NOR: 43
+XOR: 4
+XNOR: 5
+TOTAL GATES: 3046
+Num transistors: 6033
+NUM TRANSISTORS: 5923 INDIVIDUAL: 0 GENERATION: 150000
+Circuit max depth: 193
+AND: 2291
+OR: 478
+NOT: 36
+NAND: 8
+NOR: 38
+XOR: 4
+XNOR: 2
+TOTAL GATES: 2857
+Num transistors: 5648
+Circuit max depth: 149
+AND: 2129
+OR: 462
+NOT: 41
+NAND: 4
+NOR: 32
+XOR: 3
+XNOR: 1
+TOTAL GATES: 2672
+Num transistors: 5276
+NUM TRANSISTORS: 5236 INDIVIDUAL: 0 GENERATION: 200000
+Circuit max depth: 109
+AND: 1862
+OR: 436
+NOT: 43
+NAND: 5
+NOR: 29
+XOR: 4
+XNOR: 2
+TOTAL GATES: 2381
+Num transistors: 4698
+NUM TRANSISTORS: 4618 INDIVIDUAL: 0 GENERATION: 250000
+Circuit max depth: 83
+AND: 1602
+OR: 396
+NOT: 41
+NAND: 2
+NOR: 28
+XOR: 6
+XNOR: 1
+TOTAL GATES: 2076
+Num transistors: 4091
+NUM TRANSISTORS: 4048 INDIVIDUAL: 0 GENERATION: 300000
+NUM TRANSISTORS: 3399 INDIVIDUAL: 0 GENERATION: 350000
+Circuit max depth: 79
+AND: 1104
+OR: 314
+NOT: 37
+NAND: 2
+NOR: 18
+XOR: 2
+XNOR: 0
+TOTAL GATES: 1477
+Num transistors: 2901
+NUM TRANSISTORS: 2896 INDIVIDUAL: 0 GENERATION: 400000
+NUM TRANSISTORS: 2636 INDIVIDUAL: 0 GENERATION: 450000
+NUM TRANSISTORS: 2391 INDIVIDUAL: 0 GENERATION: 500000
+Circuit max depth: 72
+AND: 812
+OR: 248
+NOT: 38
+NAND: 1
+NOR: 14
+XOR: 0
+XNOR: 0
+TOTAL GATES: 1113
+Num transistors: 2174
+NUM TRANSISTORS: 2025 INDIVIDUAL: 0 GENERATION: 550000
+NUM TRANSISTORS: 1618 INDIVIDUAL: 0 GENERATION: 600000
+NUM TRANSISTORS: 1367 INDIVIDUAL: 0 GENERATION: 650000
+Circuit max depth: 65
+AND: 387
+OR: 156
+NOT: 34
+NAND: 1
+NOR: 12
+XOR: 0
+XNOR: 0
+TOTAL GATES: 590
+Num transistors: 1134
+NUM TRANSISTORS: 1039 INDIVIDUAL: 0 GENERATION: 700000
+NUM TRANSISTORS: 798 INDIVIDUAL: 0 GENERATION: 750000
+NUM TRANSISTORS: 642 INDIVIDUAL: 0 GENERATION: 800000
+NUM TRANSISTORS: 519 INDIVIDUAL: 0 GENERATION: 850000
+NUM TRANSISTORS: 408 INDIVIDUAL: 0 GENERATION: 900000
+NUM TRANSISTORS: 328 INDIVIDUAL: 0 GENERATION: 950000
+NUM TRANSISTORS: 297 INDIVIDUAL: 0 GENERATION: 1000000
+NUM TRANSISTORS: 240 INDIVIDUAL: 0 GENERATION: 1050000
+NUM TRANSISTORS: 195 INDIVIDUAL: 0 GENERATION: 1100000
+NUM TRANSISTORS: 176 INDIVIDUAL: 0 GENERATION: 1150000
+NUM TRANSISTORS: 162 INDIVIDUAL: 0 GENERATION: 1200000
+NUM TRANSISTORS: 149 INDIVIDUAL: 0 GENERATION: 1250000
+NUM TRANSISTORS: 134 INDIVIDUAL: 1 GENERATION: 1300000
+NUM TRANSISTORS: 128 INDIVIDUAL: 0 GENERATION: 1350000
+NUM TRANSISTORS: 126 INDIVIDUAL: 2 GENERATION: 1400000
+NUM TRANSISTORS: 126 INDIVIDUAL: 2 GENERATION: 1450000
+Circuit max depth: 17
+AND: 33
+OR: 20
+NOT: 14
+NAND: 0
+NOR: 6
+XOR: 0
+XNOR: 0
+TOTAL GATES: 73
+Num transistors: 126
+NUM TRANSISTORS: 126 INDIVIDUAL: 0 GENERATION: 1500000
+NUM TRANSISTORS: 124 INDIVIDUAL: 0 GENERATION: 1550000
+NUM TRANSISTORS: 117 INDIVIDUAL: 0 GENERATION: 1600000
+NUM TRANSISTORS: 117 INDIVIDUAL: 0 GENERATION: 1650000
+NUM TRANSISTORS: 115 INDIVIDUAL: 0 GENERATION: 1700000
+NUM TRANSISTORS: 115 INDIVIDUAL: 0 GENERATION: 1750000
+NUM TRANSISTORS: 115 INDIVIDUAL: 4 GENERATION: 1800000
+NUM TRANSISTORS: 115 INDIVIDUAL: 0 GENERATION: 1850000
+NUM TRANSISTORS: 115 INDIVIDUAL: 3 GENERATION: 1900000
+NUM TRANSISTORS: 114 INDIVIDUAL: 2 GENERATION: 1950000
+NUM TRANSISTORS: 114 INDIVIDUAL: 0 GENERATION: 2000000
+NUM TRANSISTORS: 114 INDIVIDUAL: 0 GENERATION: 2050000
+NUM TRANSISTORS: 114 INDIVIDUAL: 0 GENERATION: 2100000
+NUM TRANSISTORS: 114 INDIVIDUAL: 0 GENERATION: 2150000
+NUM TRANSISTORS: 114 INDIVIDUAL: 0 GENERATION: 2200000
+NUM TRANSISTORS: 114 INDIVIDUAL: 0 GENERATION: 2250000
+NUM TRANSISTORS: 114 INDIVIDUAL: 3 GENERATION: 2300000
+NUM TRANSISTORS: 112 INDIVIDUAL: 0 GENERATION: 2350000
+NUM TRANSISTORS: 109 INDIVIDUAL: 0 GENERATION: 2400000
+NUM TRANSISTORS: 109 INDIVIDUAL: 0 GENERATION: 2450000
+NUM TRANSISTORS: 109 INDIVIDUAL: 0 GENERATION: 2500000
+NUM TRANSISTORS: 109 INDIVIDUAL: 1 GENERATION: 2550000
+NUM TRANSISTORS: 107 INDIVIDUAL: 0 GENERATION: 2600000
+NUM TRANSISTORS: 107 INDIVIDUAL: 3 GENERATION: 2650000
+NUM TRANSISTORS: 107 INDIVIDUAL: 0 GENERATION: 2700000
+NUM TRANSISTORS: 107 INDIVIDUAL: 0 GENERATION: 2750000
+NUM TRANSISTORS: 105 INDIVIDUAL: 3 GENERATION: 2800000
+NUM TRANSISTORS: 105 INDIVIDUAL: 3 GENERATION: 2850000
+NUM TRANSISTORS: 105 INDIVIDUAL: 0 GENERATION: 2900000
+NUM TRANSISTORS: 103 INDIVIDUAL: 0 GENERATION: 2950000
+NUM TRANSISTORS: 103 INDIVIDUAL: 0 GENERATION: 3000000
+NUM TRANSISTORS: 101 INDIVIDUAL: 4 GENERATION: 3050000
+NUM TRANSISTORS: 101 INDIVIDUAL: 4 GENERATION: 3100000
+Circuit max depth: 15
+AND: 23
+OR: 17
+NOT: 13
+NAND: 0
+NOR: 8
+XOR: 0
+XNOR: 0
+TOTAL GATES: 61
+Num transistors: 101
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 3150000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 3200000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 3250000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 3300000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 3350000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 3400000
+NUM TRANSISTORS: 101 INDIVIDUAL: 1 GENERATION: 3450000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 3500000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 3550000
+NUM TRANSISTORS: 101 INDIVIDUAL: 4 GENERATION: 3600000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 3650000
+NUM TRANSISTORS: 101 INDIVIDUAL: 4 GENERATION: 3700000
+NUM TRANSISTORS: 101 INDIVIDUAL: 3 GENERATION: 3750000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 3800000
+NUM TRANSISTORS: 101 INDIVIDUAL: 4 GENERATION: 3850000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 3900000
+NUM TRANSISTORS: 101 INDIVIDUAL: 4 GENERATION: 3950000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 4000000
+NUM TRANSISTORS: 101 INDIVIDUAL: 2 GENERATION: 4050000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 4100000
+NUM TRANSISTORS: 101 INDIVIDUAL: 1 GENERATION: 4150000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 4200000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 4250000
+NUM TRANSISTORS: 101 INDIVIDUAL: 4 GENERATION: 4300000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 4350000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 4400000
+NUM TRANSISTORS: 101 INDIVIDUAL: 2 GENERATION: 4450000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 4500000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 4550000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 4600000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 4650000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 4700000
+Circuit max depth: 15
+AND: 23
+OR: 17
+NOT: 14
+NAND: 0
+NOR: 7
+XOR: 0
+XNOR: 0
+TOTAL GATES: 61
+Num transistors: 101
+NUM TRANSISTORS: 101 INDIVIDUAL: 1 GENERATION: 4750000
+NUM TRANSISTORS: 101 INDIVIDUAL: 3 GENERATION: 4800000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 4850000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 4900000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 4950000
+NUM TRANSISTORS: 101 INDIVIDUAL: 1 GENERATION: 5000000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 5050000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 5100000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 5150000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 5200000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 5250000
+NUM TRANSISTORS: 101 INDIVIDUAL: 0 GENERATION: 5300000
+NUM TRANSISTORS: 99 INDIVIDUAL: 4 GENERATION: 5350000
+NUM TRANSISTORS: 99 INDIVIDUAL: 2 GENERATION: 5400000
+NUM TRANSISTORS: 99 INDIVIDUAL: 0 GENERATION: 5450000
+NUM TRANSISTORS: 99 INDIVIDUAL: 0 GENERATION: 5500000
+NUM TRANSISTORS: 99 INDIVIDUAL: 0 GENERATION: 5550000
+NUM TRANSISTORS: 99 INDIVIDUAL: 0 GENERATION: 5600000
+NUM TRANSISTORS: 99 INDIVIDUAL: 4 GENERATION: 5650000
+NUM TRANSISTORS: 99 INDIVIDUAL: 0 GENERATION: 5700000
+NUM TRANSISTORS: 99 INDIVIDUAL: 0 GENERATION: 5750000
+NUM TRANSISTORS: 99 INDIVIDUAL: 0 GENERATION: 5800000
+NUM TRANSISTORS: 99 INDIVIDUAL: 0 GENERATION: 5850000
+NUM TRANSISTORS: 99 INDIVIDUAL: 0 GENERATION: 5900000
+NUM TRANSISTORS: 99 INDIVIDUAL: 0 GENERATION: 5950000
+NUM TRANSISTORS: 99 INDIVIDUAL: 0 GENERATION: 6000000
+NUM TRANSISTORS: 99 INDIVIDUAL: 0 GENERATION: 6050000
+NUM TRANSISTORS: 99 INDIVIDUAL: 1 GENERATION: 6100000
+NUM TRANSISTORS: 99 INDIVIDUAL: 0 GENERATION: 6150000
+NUM TRANSISTORS: 99 INDIVIDUAL: 0 GENERATION: 6200000
+NUM TRANSISTORS: 99 INDIVIDUAL: 4 GENERATION: 6250000
+NUM TRANSISTORS: 99 INDIVIDUAL: 0 GENERATION: 6300000
+NUM TRANSISTORS: 99 INDIVIDUAL: 2 GENERATION: 6350000
+Circuit max depth: 15
+AND: 22
+OR: 17
+NOT: 13
+NAND: 0
+NOR: 8
+XOR: 0
+XNOR: 0
+TOTAL GATES: 60
+Num transistors: 99
+NUM TRANSISTORS: 99 INDIVIDUAL: 4 GENERATION: 6400000
+NUM TRANSISTORS: 99 INDIVIDUAL: 4 GENERATION: 6400000
+--------------------------
+Circuit max depth: 15
+AND: 22
+OR: 17
+NOT: 12
+NAND: 0
+NOR: 9
+XOR: 0
+XNOR: 0
+TOTAL GATES: 60
+Num transistors: 99
+TOTAL TIME: 97308.894600 seconds
