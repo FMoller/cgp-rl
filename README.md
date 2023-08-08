@@ -7,4 +7,8 @@ NOTES:
 
 This project contains implementations of the CGP-RL and Node CGP-RL algorithms, presented in the papers: [A Reinforcement Learning Based Adaptive Mutation for Cartesian Genetic Programming Applied to the Design of Combinational Logic Circuits](https://link.springer.com/chapter/10.1007/978-3-030-61380-8_2) And in An Adaptive Mutation for Cartesian Genetic Programming Using an epsilon-greedy Strategy (under review at Applied Intelligence). Both are variations of the Cartesian Genetic Programming algorithm proposed by JF Miller, and they are setted to design and optimize combinational logic circuits.
 
+## Project Structure
+
+There is no defined project structure yet. main.c is a version of CGP-RL. This will soon be fixed.
+
 
