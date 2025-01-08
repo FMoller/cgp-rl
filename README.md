@@ -9,6 +9,7 @@ This project contains implementations of the CGP-RL and Node CGP-RL algorithms, 
 
 ## Project Structure
 
-There is no defined project structure yet. main.c is a version of CGP-RL. This will soon be fixed.
+There is no defined project structure yet. main.c is a version of CGP-RL. This will soon be fixed (it's 2025 and I did not it yet, but I will do it...)
+
 
 
